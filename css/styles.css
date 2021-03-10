@@ -1,0 +1,53 @@
+/* основной цвет текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый цвет на Кнопке #FFFFFF */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --secondary-bg-color: #f5f4fa;
+}
+
+.logo {
+  color: var(--accent-color);
+}
+/* Основное тело страницы */
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+/* Списки без стандартных точек */
+.list {
+  list-style: none;
+}
+
+/* Навигация */
+.site-nav .link {
+  color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--title-text-color);
+}
+
+/* hero */
+.hero-title {
+  color: var(--title-text-color);
+}
+
+/* section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* features */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+/* team */
+.team-list .title {
+  color: var(--title-text-color);
+}
